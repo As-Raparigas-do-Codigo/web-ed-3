@@ -1,6 +1,11 @@
 # 📚 S01 - Sessão de Abertura
-Bem-vinda à abertura dos Workshops de Introdução às Tecnologias Web! 👋
+Bem-vinda à abertura dos Workshops de Introdução às Tecnologias Web! 👋 
 
+- [🗂 Sessão de Kick-Off Tecnologias Web](Kick-Off-Web.pdf)
+
+<br>
+
+# 💻 Instalação de Software:
 No decorrer dos workshops vais precisar de um editor de texto para escreveres o teu código (HTML, CSS, JS) e de um navegador (um browswer) que interprete esse código (onde vemos os resultados!). Nestes workshops iremos usar:
 
 - [ ] Google Chrome
@@ -16,9 +21,6 @@ No decorrer dos workshops vais precisar de um editor de texto para escreveres o 
 
 No entanto, se já tens outro browser (e.g., Firefox, Safari) ou editor de texto (e.g., VS Code, Notepad++) com que te sentes confortável, excelente! 😄
 
-<br>
-
-# 💻 Instalação de Software:
 
 ## Google Chrome
 1. Acede ao [site oficial](https://www.google.com/chrome/);
