@@ -1,4 +1,4 @@
-# Introdução à Programação com Python (Edição 2)
+# Introdução às Tecnologias Web (3ª Edição)
 
 ![Web_Workshop](img/3rd_Ed_Workshops_Web.png)
 
