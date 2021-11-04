@@ -65,7 +65,7 @@ Em tech, um CTF (Capture The Flag) está normalmente associado à área de ciber
 
 Pois bem, nós escondemos uma 🚩 no nosso website. Será que consegues encontrá-la com algo que aprendeste nesta sessão?
 
-Acede a https://raparigas-do-codigo-ctf.herokuapp.com e faz o registo com o teu nome e email (usem os mesmos que usam no resgisto dos workshops).
+Acede a https://raparigas-do-codigo-ctf.herokuapp.com e faz o registo com o teu nome e email (usem os mesmos que usam no registo dos workshops).
 
 Depois... it's game on! 😄 O objectivo é encontrar a bandeira o mais rapidamente possível! Acredita que consegues completar o desafio, e não compliques! 😊 
 
