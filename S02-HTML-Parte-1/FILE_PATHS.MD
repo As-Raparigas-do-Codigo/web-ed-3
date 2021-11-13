@@ -60,8 +60,11 @@ Qual seria o caminho desde `start.html` até ao `end.mp4`?
 
 <details>
   <summary>⚠️ Solução (Spoiler)</summary>
-  
+
   ```html
   <source src="../../video/end.mp4">
   ```
 </details>
+
+### Créditos
+Adaptado do jogo em desenvolvimento em https://codepip.com ♥️
