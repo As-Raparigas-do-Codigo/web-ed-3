@@ -89,7 +89,7 @@ Segue os passos seguintes para chegares à construção da tua página:
 - ✅ [Passo 1: index.html](INDEX.md)
 - ✅ [Passo 2: apps.html](APPS.md)
 - 🙉 Passo 3: cartao_wtf (próxima sessão - S03)
-- ✅ [Passo 4: cinemas.html](CINEMAS.md)
+- ✅ [Passo 4: cinemas.html](CINEMA.md)
 
 Conseguiste? 😄 Partilha connosco os resultados! Para qualquer dúvida podes sempre consultar a tua mentora ou mentor! 😊
 
