@@ -21,6 +21,7 @@ Procura replicar a seguinte página HTML:
 
 ### Exercício 2: Organização de ficheiros
 Partindo da página `index.html`, e mantendo a organização dos ficheiros estabelecida na imagem, utiliza endereços relativos para mostrar as imagens pretendidas.
+
 ![HTML_Ex_Files](img/ex2.png)
 
 Se ainda não dominas bem a organização de ficheiros e a referenciação relativa, [consulta os exemplos indicados aqui!](FILE_PATHS.md) 🤓
