@@ -20,11 +20,10 @@ Procura replicar a seguinte página HTML:
 ![HTML_Ex_Text](img/ex1.png)
 
 ### Exercício 2: Organização de ficheiros
-Partindo da página `index.html`, e mantendo a organização dos ficheiros estabelecida na imagem, utiliza endereços relativos para mostrar as imagens pretendidas.
+Partindo da página `index.html`, e mantendo a organização dos ficheiros estabelecida na imagem, utiliza endereços relativos para mostrar as imagens pretendidas. Se ainda não dominas bem a organização de ficheiros e a referenciação relativa, [consulta os exemplos indicados aqui!](PATHS.md) 🤓
 
 ![HTML_Ex_Files](img/ex2.png)
 
-Se ainda não dominas bem a organização de ficheiros e a referenciação relativa, [consulta os exemplos indicados aqui!](FILE_PATHS.md) 🤓
 
 ### Exercício 3: Listas
 Replica a seguinte lista em HTML:
