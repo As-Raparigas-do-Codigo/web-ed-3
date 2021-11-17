@@ -55,8 +55,11 @@ Com a Package Control instalada, podes instalar quaisquer packages (ferramentas)
 
 1. No menu "Tools", vai a "Command Pallete" e procura por "Package Control: Install Package";
 2. Escreve "HTMLBeautify" e clica (ou ENTER);
+3. Passado alguns segundos deves ter este pacote instalado.
+4. Sempre que quiseres re-formatar/re-indentar o código, usa os atalhos
 
-- [x] HTMLBeautify (comando no MacOS: Command-Option-Shift-F)
+- em MacOS: Command-Option-Shift-F
+- em Windows: Ctrl-Alt-Shift-F
 
 <br>
 
