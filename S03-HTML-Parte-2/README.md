@@ -36,12 +36,6 @@ Mais exercícios para praticar? Vamos lá!
 
 - [[HTML: Multimédia (`<iframe>`)]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_iframe1)
 
-- [[HTML: Parágrafos]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_paragraphs1)
-
-- [[HTML: Comentários]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_comments1)
-
-- [[HTML: Atributos]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1)
-
 
 ## 🚀 Desafio: Cartão WTF (Formulário)
 Neste exercício, vamos terminar a nossa página web "WTF" com a construção do formulário de adesão ao tarifário! ✊ Ou seja, terminando o **Passo 3** do [desafio da aula passada (S02).](../S02-HTML-Parte-1/README.md)
