@@ -7,8 +7,8 @@ Nesta sessão, vais ser introduzida ao mundo das Tecnologias Web, a começar por
 1. ...
 2. ...
 
-## Como publicar um site a partir de um repositório do Github?
-[Como_publicar_um_site_usando_Github_Pages.md](Como_publicar_um_site_usando_Github_Pages.md)
+## Como publicar um site a partir de um repositório do Github
+[Lê este artigo!](Como_publicar_a_partir_de_um_repositorio_do_Github.md)
 
 ## 🙇🏻‍♀️ Exercícios da Aula
 [...]
