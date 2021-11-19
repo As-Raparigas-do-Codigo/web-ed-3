@@ -13,7 +13,7 @@ Adicionalmente executa os ficheiros por meio de um processo de construção, cha
 ### Como faço para ter o meu site publicado aqui?
 
 1. Primeiro tens de ter um conta no [Github](https://github.com/)
-2. Tens de ter um repositório criado e com o teu código
+2. Tens de ter um repositório criado e com o teu código (testa o código no teu computador para garantir que está tudo OK)
 3. No teu repositório, acede ao separador "Settings" e depois clica em "Pages"
 
 ![githubpages1](https://user-images.githubusercontent.com/39055313/135725380-daf77fad-08ee-4013-945b-47469510fa61.jpeg)
