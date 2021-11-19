@@ -1,7 +1,7 @@
 # 📚 S03 - Módulo 1: HTML (Parte 2)
 Nesta sessão, vamos terminar o módulo de HTML! 💪
 
-[🗂 S03 - Introdução ao HTML (Parte 2)](ARDC_HTML_Parte_1_Web_3ed_13_Nov_2021.pdf) 
+[🗂 S03 - Introdução ao HTML (Parte 2)](ARDC_HTML_Parte_2_Web_3ed_20_Nov_2021.pdf) 
 
 ## Tópicos:
 1. Formulários
