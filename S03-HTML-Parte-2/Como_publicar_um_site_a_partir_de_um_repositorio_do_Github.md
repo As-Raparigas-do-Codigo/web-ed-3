@@ -1,15 +1,18 @@
 # Como publicar um site a partir de um repositório do Github
 
-Se estás a ler este artigo, espero que já tenhas o teu projecto no Github, porque lhe vamos dar vida.
-Não te preocupes se ainda não está na versão final que desejas, quando actualizares, o projecto tambem se actualiza porque se está a "alimentar" do teu repositório.
+Se estás a ler este artigo, espero que já tenhas o teu projecto no Github, porque lhe vamos dar vida. 👩‍🔬
+
+Não te preocupes se ainda não está na versão final que desejas, podes sempre actualizar o site de acordo com as novas alterações ao código.
 
 ### Github pages - o que é?
 
-O GitHub Pages é um serviço de hospedagem para sites estáticos que obtém os ficheiros de HTML, CSS e JavaScript diretamente de um repositório no GitHub. Adicionalmente executa os ficheiros por meio de um processo de construção, chamado "build" que publica o site.
+O [GitHub Pages](https://pages.github.com/) é um serviço de hospedagem para sites estáticos que obtém os ficheiros de HTML, CSS e JavaScript diretamente de um repositório no GitHub. 
+
+Adicionalmente executa os ficheiros por meio de um processo de construção, chamado "build" que publica o site.
 
 ### Como faço para ter o meu site publicado aqui?
 
-1. Primeiro tens de ter um conta no github
+1. Primeiro tens de ter um conta no [Github](https://github.com/)
 2. Tens de ter um repositório criado e com o teu código
 3. No teu repositório, acede ao separador "Settings" e depois clica em "Pages"
 
