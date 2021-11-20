@@ -22,6 +22,10 @@ Replica o seguinte formulário:
 
 ![HTML_Ex_Form](img/ex_form.png)
 
+<!-- TODO: Exercício 2: HTML Semântico -->
+<!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content -->
+
+
 ## 🏋🏻‍♂️ Exercícios Pós-Aula 
 Mais exercícios para praticar? Vamos lá!
 
@@ -30,7 +34,6 @@ Mais exercícios para praticar? Vamos lá!
     - [[Formulários - Elementos]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_form_elements1)
     - [[Formulários - Atributos]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_forms_attributes1)
     - [[Formulários - Input]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_form_input_types1)
-
 
 - [[HTML: Atributo id]](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_id1)
 
@@ -72,3 +75,38 @@ Parabéns!!! 😁✊ Fizeste a tua primeira página web bastante completa! Agora
 ([vê aqui como!](Como_publicar_um_site_a_partir_de_um_repositorio_do_Github.md))
 
 E para a semana? Bom, vais aprender CSS que deixará a tua página muito mais bonita, sem dúvida! Continua a partilhar connosco as tuas ideias e modificações ♥️
+
+# 📖 Leituras Extra
+Deixamos aqui mais alguns recursos para acompanhamento ao teu estudo de HTML, que poderás consultar para matar a curiosidade:
+
+## MDN Web Docs 
+- [Mozilla Web Docs HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Aqui encontram uma boa documentação do HTML, desde tópicos introdutórios a avançados.
+
+- [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): Revisão dos aspetos básicos do HTML.
+
+- [HTML Semântico](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure): Como deverá ser a estrutura do nosso website e para que servem as tags de HTML semântico? Como planear um website simples?
+
+## 🗂 Como deve ser a minha estrutura de documentos (ficheiros, estilos, imagens, etc.)?
+[Lê este artigo!](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
+
+## 🕸 Publicação de páginas web:
+Como podes publicar as tuas páginas web online?
+
+### 1. GitHub e GitHub Pages:
+O GitHub permite que criar vários repositórios pessoais e colaborar noutros projetos (de amigos, de projetos open-source, etc). Em particular, o GitHub tem uma boa ferramenta para publicação de páginas, que é o GitHub Pages. [Podes saber mais como publicar no GitHub Pages aqui](Como_publicar_um_site_a_partir_de_um_repositorio_do_Github.md).
+
+<!-- TODO: Melhorar a descrição da criação de repositórios no GitHub e criação de pages. Talvez linkar a um dos workshops de Git -->
+
+### 2. Web-based IDEs:
+Podes sempre usar estes websites para experimentares o teu código e partilhares um link para os teus exemplos:
+
+- [CodePen](https://codepen.io)
+- [JSFiddle](https://jsfiddle.net)
+- [Glitch](https://glitch.com)
+
+## 😯 Tags HTML "deprecated" (osoletas)
+Apesar de o browser conseguir, em certos casos, "lidar" com algumas tags que são obsoletas, não deves usá-las no teu código (não te esqueças de validar os teus documentos aqui: http://validator.w3.org).
+
+Tens aqui alguns [exemplos de tags HTML obsoletas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#obsolete_and_deprecated_elements)!
+
+
