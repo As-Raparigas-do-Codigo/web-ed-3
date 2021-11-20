@@ -104,7 +104,7 @@ Podes sempre usar estes websites para experimentares o teu código e partilhares
 - [JSFiddle](https://jsfiddle.net)
 - [Glitch](https://glitch.com)
 
-## 😯 Tags HTML "deprecated" (osoletas)
+## 😯 Tags HTML "deprecated" (obsoletas)
 Apesar de o browser conseguir, em certos casos, "lidar" com algumas tags que são obsoletas, não deves usá-las no teu código (não te esqueças de validar os teus documentos aqui: http://validator.w3.org).
 
 Tens aqui alguns [exemplos de tags HTML obsoletas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#obsolete_and_deprecated_elements)!
