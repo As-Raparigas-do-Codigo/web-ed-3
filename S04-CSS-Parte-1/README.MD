@@ -22,13 +22,18 @@
 16. Media Queries
 17. Bibliotecas
 
+## 🙇🏻‍♀️ Revisão da Aula
+- Consegues dizer 3 tipos diferentes de selectores CSS?
+- Porque é que não devemos usar Ids quando estamos a dar estilos aos elementos?
+- Como é que escolhemos nomes para as nossas classes de CSS?
+- Qual é a propriedade que adiciona espaço fora de um elemento?
 
 ## 💪 Cursos/Exercícios complementares
 
 Estes cursos não são obrigatórios de fazeres mas são um ótimo complemento!😊
 
-[CSS - SoloLearn](https://www.sololearn.com/learning/1023)
-[CSS - w3schools](https://www.w3schools.com/css/css_intro.asp)
+- [CSS - SoloLearn](https://www.sololearn.com/learning/1023)
+- [CSS - w3schools](https://www.w3schools.com/css/css_intro.asp)
 
 
 ## 📚 Fica a par sempre das últimas novidades
