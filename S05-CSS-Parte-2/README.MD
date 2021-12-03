@@ -9,4 +9,4 @@ Para a aula de hoje vamos começar com um starter project do nosso futuro portfo
 [🦄  My First Portfolio - starter project](https://github.com/As-Raparigas-do-Codigo/my-first-portfolio-starter)
 
 Após abrires o link anterior, usa o botão que diz 'Fork' de modo a passares a ter no teu github.
-Após fazeres fork, podes fazer download do zip ou fazer clone do projecto. O clone permite-te que vás tendo um versionamento das alterações que fores fazendo, portanto recomendamos que o faças. Depois fazes fazer commit e push das tuas alterações e ver o teu projecto final.
+Após fazeres fork, podes fazer download do zip ou fazer clone do projecto. O clone permite-te que vás tendo um versionamento das alterações que fores fazendo, portanto recomendamos que o faças. Depois podes fazer commit e push das tuas alterações e ver o teu projecto final.
