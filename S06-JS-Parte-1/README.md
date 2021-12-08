@@ -259,26 +259,26 @@ var x = 2 + 3 + “5”;  // 55
  
 | Operador | Descrição | Exemplo |
 | ------------- |-------------|-------------|
-| == | ```Igual a``` | ```2 == 1 //false``` |
-| != | ```Diferente de``` | ```2 != 1 //true``` |
-| > | ```Maior do que``` | ```2 > 1 // true``` |
-| < | ```Menor do que``` | ```2 < 1 //false``` |
-| >= | ```Maior ou igual a``` | ```2 >= 1 //true``` |
-| <= | ```Menor ou igual a``` | ```2 <= 1 //false``` |
+| == | Igual a | ```2 == 1 //false``` |
+| != | Diferente de | ```2 != 1 //true``` |
+| > | Maior do que | ```2 > 1 // true``` |
+| < | Menor do que | ```2 < 1 //false``` |
+| >= | Maior ou igual a | ```2 >= 1 //true``` |
+| <= | Menor ou igual a | ```2 <= 1 //false``` |
  
 ### Operadores lógicos
  
 | Operador | Descrição | Exemplo |
 | ------------- |-------------|-------------|
-| ! | ```Negação``` | ```x = 2; y = 1; !(x==y); //false``` |
-| && | ```Conjunção``` | ```x = 1; y = 5; (x<3 && y<3); //false``` |
-| || | ```Disjunção``` | ```x = 1; y = 5; (x<3 || y<3); //true``` |
+| ! | Negação | ```x = 2; y = 1; !(x==y); //false``` |
+| && | Conjunção | ```x = 1; y = 5; (x<3 && y<3); //false``` |
+| || | Disjunção | ```x = 1; y = 5; (x<3 || y<3); //true``` |
  
 ### Operadores de cadeias (strings)
  
 | Operador | Descrição | Exemplo |
 | ------------- |-------------|-------------|
-| + | ```Concatenação``` | ```string1 = "Bom"; string2 = " dia"; stringFinal = string1 + string2; // "Bom dia"``` |
+| + | Concatenação | ```string1 = "Bom"; string2 = " dia"; stringFinal = string1 + string2; // "Bom dia"``` |
 
 ---
  
