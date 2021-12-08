@@ -1,4 +1,4 @@
-# ![js](https://imgr.search.brave.com/u2mh-cKPyTuFQ3InY4b5uo_I6_XvT-o_8f6pKvJ4oYo/fit/1052/1052/ce/1/aHR0cDovLzMuYnAu/YmxvZ3Nwb3QuY29t/Ly1QVHR5M0NmVEdu/QS9UcFpPRWpUUV9X/SS9BQUFBQUFBQUFl/by9LZUt0X0Q1WDJ4/by9zMTYwMC9qcy5q/cGc){ width: 100px; } JavaScript
+# <img alt="JavaScript logo" src="https://imgr.search.brave.com/u2mh-cKPyTuFQ3InY4b5uo_I6_XvT-o_8f6pKvJ4oYo/fit/1052/1052/ce/1/aHR0cDovLzMuYnAu/YmxvZ3Nwb3QuY29t/Ly1QVHR5M0NmVEdu/QS9UcFpPRWpUUV9X/SS9BQUFBQUFBQUFl/by9LZUt0X0Q1WDJ4/by9zMTYwMC9qcy5q/cGc" width=30 /> JavaScript
 
 Chegámos ao último módulo de Web!
 Já consegues criar uma página de um website com HTML e dar-lhes estilos com CSS.
