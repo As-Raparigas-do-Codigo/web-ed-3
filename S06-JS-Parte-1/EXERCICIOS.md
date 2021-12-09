@@ -73,3 +73,10 @@ Vamos adicionar uma validação ao nosso exercício anterior:
 - Escreva uma função calculaArea() que receba como argumento o raio de uma circunferência e retorne o valor da sua área (área = π x r^2). 
 - Crie um ciclo for que imprima para a consola as áreas de círculos com raios de 2 a 9, sendo que no caso do raio ser 3, o ciclo deve saltar essa iteração.
 </details>
+
+  <details>
+    <summary>Desafio da W3Schools</summary>
+    [Faz o desafio de JavaScript da W3Schools aqui!](https://www.w3schools.com/js/js_quiz.asp)
+  </details>
+  
+  
