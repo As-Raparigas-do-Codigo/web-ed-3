@@ -76,7 +76,7 @@ Vamos adicionar uma validação ao nosso exercício anterior:
 
   <details>
     <summary>Desafio da W3Schools</summary>
-    [Faz o desafio de JavaScript da W3Schools aqui!](https://www.w3schools.com/js/js_quiz.asp)
+ https://www.w3schools.com/js/js_quiz.asp
   </details>
   
   
