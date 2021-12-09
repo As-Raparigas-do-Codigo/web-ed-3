@@ -38,8 +38,7 @@ Verifica o texto inserido pelo utilizador na caixa de texto mensagem e imprima-o
   </body>
 </html>
 ```
-
-</details
+</details>
 
 <details>
 <summary>Exercício 3</summary>
