@@ -21,10 +21,8 @@ Já o JavaScript é uma linguagem de programação.
 ---
 
 <details>
-<summary>Tag \<script\> </summary>
+<summary>Tag <script> </summary>
 
-wda
-</details>
 ## Tag \<script\>
 
 O código JavaScript pode ser incluído no <head> e/ou <body> dos documentos HTML.
@@ -91,8 +89,12 @@ function mudaTexto() {
 - 💡 O ficheiro externo deve gravar-se com extensão .js.
 - 💡 No ficheiro javascript externo não é necessário colocar as tags <script> e </script> a envolver o código.
 
+</details>	
+
 ---
 
+<details>
+<summary>Output</summary>
 ## Output
 
 Há quatro formas de o browser nos mostrar o output (resultado) de uma operação.
@@ -160,8 +162,12 @@ Imprimir algo na consola do browser (temos de inspecionar a página, com a tecla
   </body>
 </html>
 ```
+</details>
 
 ---
+
+<details>
+<summary>Comentários</summary>
 
 ## Comentários
 ```js
@@ -171,9 +177,12 @@ Imprimir algo na consola do browser (temos de inspecionar a página, com a tecla
   Muito útil quando queremos adicionar
   muita informação nos comentários */
 ```
+</details>
 
 ---
 
+<details>
+<summary>Variáveis</summary>
 ## Variáveis
 
 Declaradas usando uma das palavras reservadas opcionais ```var``` e ```let```.
@@ -225,7 +234,12 @@ var x = "Maria" + " " + "Rita";  // "Maria Rita"
 var x = "5" + 2 + 3;  // 523
 var x = 2 + 3 + "5";  // 55
 ```
+</details>
 
+---
+
+<details>
+<summary>Operadores</summary>
 ### Operadores
 - Operadores aritméticos
 - Operadores de incremento e decremento
@@ -285,16 +299,12 @@ var x = 2 + 3 + "5";  // 55
 | ------------- |-------------|-------------|
 | + | Concatenação | ``` "Bom"; string2 = " dia"; stringFinal = string1 + string2; // "Bom dia"``` |
 
----
- 
-## Exercício 🏋️‍♀️
+</details>
 
-A consola do navegador de internet consegue ler e correr JavaScript!
-Adeus à calculadora!
-Olá consola! 😂
-Testa os diferentes tipos de variáveis e operadores lá.
- 
- ---
+---
+
+<details>
+<summary>Instruções condicionais</summary>
 
 ### Instruções condicionais
  
@@ -390,7 +400,12 @@ switch (diaSemana) {
 
 Caso nenhum valor dos case coincida com o valor da expressão utilizada no switch é corrido o bloco de código no ```default```.
 
+</details>
+
 ---
+
+<details>
+<summary>Instruções iterativas</summary>
 
 ### Instruções iterativas
  
@@ -467,8 +482,13 @@ for (i = 0; i < 5; i++) {
 }
 document.write("Terminei!");
 ```
+</details>
 
 ---
+
+<details>
+<summary>Funções</summary>
+
 ### Funções
 
 Uma função é uma sequência de instruções com o objectivo de desempenhar uma tarefa específica.
@@ -516,7 +536,6 @@ Uma função é uma sequência de instruções com o objectivo de desempenhar um
 | parseFloat() | Faz o parse de uma string e devolve um float | ```var a = parseFloat("10.33"); //a = 10.33;``` |   
 | parseInt() | Faz o parse de uma string e devolve um integer | ```var a = parseInt("10.33"); //a = 10;``` |
 
-
 ### Criação e invocação de funções
 
 ```js
@@ -547,6 +566,12 @@ var x = soma(3,2);  // x = 5
 document.write("O valor de x é: " + x);
 ```
 
+</details>
+	
+---
+
+<details>
+<summary>Eventos</summary>
 
 ### Eventos
 
@@ -597,7 +622,6 @@ function entrar() {
 
 ### Eventos Comuns
 
-
 | Evento | Descrição | Elementos para os quais está definido |
 | ------------- |-------------|-------------|
 | onclick | Clicar num elemento | Todos os elementos | 
@@ -609,64 +633,4 @@ function entrar() {
 
 Existem imensos outros eventos. Consultar: http://www.w3schools.com/jsref/dom_obj_event.asp
 
-
-
-### Exercícios
-
-## Exercício 1 🏋️‍♀️
-
-Verifica o texto inserido pelo utilizador na caixa de texto mensagem e imprima-o quando o utlizador prime o botão. Testa as diferentes formas de output para imprimir:
-- ```alert()```
-- ```[elemento].write()```
-- ```[elemento].innerHTML```
-- ```console.log()```
-
-```js
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1 id="titulo"><h1/>
-    <form>
-      <input type="text" id="mensagem"/>
-      <input type="button"onClick="mostrarMensagem()" value="Clica-me" />
-    </form>
-    <script>
-      function mostrarMensagem() {
-        // completar
-      }
-    </script>
-  </body>
-</html>
-```
-
-## Exercício 2 🏋️‍♀️
-
-Para que o código fique mais claro, experimenta guardar o texto numa variável e usa a mesma variável para todas as formas de output.
-
-## Exercício 3 🏋️‍♀️
-
-Vamos adicionar uma validação ao nosso exercício anterior:
-- Alerta o utilizador se a caixa de texto estiver vazia!
-- Senão altera o título com a mensagem introduzida
-- Dicas: usar ```if``` e ```else```
-
-## Exercício 4 🏋️‍♀️
-
-Vamos adicionar uma validação ao nosso exercício anterior:
-- Alerta o utilizador se a caixa de texto estiver vazia!
-- Senão altera o título com a mensagem introduzida
-- Dicas: usar ```if``` e ```else```
-
-## Exercício 5 🏋️‍♀️
-
-- Escreva uma função calculaArea() que receba como argumento o raio de uma circunferência e retorne o valor da sua área (área = π x r^2). 
-- Crie um ciclo for que imprima para a consola as áreas de círculos com raios de 2 a 9, sendo que no caso do raio ser 3, o ciclo deve saltar essa iteração.
-
-
-
-### 
-```js
-			  
-```
-[GitHub Pages](https://pages.github.com/)
-![githubpages1](https://user-images.githubusercontent.com/39055313/135725380-daf77fad-08ee-4013-945b-47469510fa61.jpeg)
+</details>
