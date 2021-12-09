@@ -20,7 +20,12 @@ Já o JavaScript é uma linguagem de programação.
 
 ---
 
-## Tag <script>
+<details>
+<summary>Tag \<script\> </summary>
+
+wda
+</details>
+## Tag \<script\>
 
 O código JavaScript pode ser incluído no <head> e/ou <body> dos documentos HTML.
 Tem de ser inserido entre as tags <script> e </script>, como na imagem seguinte:
@@ -32,14 +37,14 @@ Exemplo de JS interno na ```<head>```
   <head>
     <script>
       function mudaTexto() {
-        document.getElementById("paragrafo1").innerHTML = “Escrevi outro texto.”;
+        document.getElementById("paragrafo1").innerHTML = "Escrevi outro texto.";
       }
     </script>
   </head>
 <body>
   <h1>A minha página</h1>
-  <p id=“paragrafo1”>Um texto qualquer.</p>
-  <button type=“button” onclick=“mudaTexto()”>Mudar o texto! </button>
+  <p id="paragrafo1">Um texto qualquer.</p>
+  <button type="button" onclick="mudaTexto()">Mudar o texto! </button>
 </body>
 </html>
 ```
@@ -53,11 +58,11 @@ Exemplo de JS interno no ```<body>```
   </head>
   <body>
     <h1>A minha página</h1>
-    <p id=“paragrafo1">Um texto qualquer.</p>
-    <button type="button" onclick=“mudaTexto()">Mudar o texto! </button>
+    <p id="paragrafo1">Um texto qualquer.</p>
+    <button type="button" onclick="mudaTexto()">Mudar o texto! </button>
     <script>
       function mudaTexto() {
-        document.getElementById("paragrafo1").innerHTML = “Escrevi outro texto.";
+        document.getElementById("paragrafo1").innerHTML = "Escrevi outro texto.";
       }
     </script>
   </body>
@@ -106,7 +111,7 @@ Lança um aviso no topo da tua janela de browser com uma mensagem.
     <h1>A minha página</h1>
 
     <script>
-      alert(“Olá a todos!”);
+      alert("Olá a todos!");
     </script>
   </body>
 </html>
@@ -122,7 +127,7 @@ Escreve texto no fundo do elemento escolhido. No exemplo abaixo o elemento foi o
     <h1>A minha página</h1>
 
     <script>
-      document.write(“<h2>O meu título</h2>”);
+      document.write("<h2>O meu título</h2>");
     </script>
 
   </body>
@@ -135,9 +140,9 @@ Escreve dentro de um elemento.
 <!DOCTYPE html>
 <html>
   <body>
-    <h1 id=“titulo”></h1>
+    <h1 id="titulo"></h1>
     <script>
-          document.getElementById("titulo").innerHTML = “A minha página fantástica!”;
+          document.getElementById("titulo").innerHTML = "A minha página fantástica!";
     </script>
   </body>
 </html>
@@ -150,7 +155,7 @@ Imprimir algo na consola do browser (temos de inspecionar a página, com a tecla
 <html>
   <body>
     <script>
-      console.log(“Imprimir algo”);
+      console.log("Imprimir algo");
     </script>
   </body>
 </html>
@@ -192,17 +197,17 @@ var a;                                         //undefined
 var a=2;                                       //Número Inteiro (integer)
 var a=2.67;                                    //Número Decimal (float)
 var a=123e5;                                   //Notação Científica
-var nome=“Zé Miguel”;                          //String (“”)
+var nome="Zé Miguel";                          //String ("")
 var nome=’João António’;                       //String (‘’)
-var equipas=[“Benfica”, “Sporting”, “Porto”];  //Array
-var pessoa={nome:”Miguel”, apelido:”Sousa”};   //Objecto
+var equipas=["Benfica", "Sporting", "Porto"];  //Array
+var pessoa={nome:"Miguel", apelido:"Sousa"};   //Objecto
 var a=true;                                    //Boolean
 ```
 
 ### Operações com variáveis
 ```js
 // É possível declarar várias variáveis diferentes de uma só vez:
-var a = 2, nome = “Zé Miguel”, carros = [“Volvo”, “Audi”];
+var a = 2, nome = "Zé Miguel", carros = ["Volvo", "Audi"];
 ```
 
 ```js
@@ -211,14 +216,14 @@ var x = 5 + 2 + 3;  // 10
 ```
 
 ```js
-// É possível “adicionar” strings: concatenação;
-var x = “Maria” + “ “ + “Rita”;  // “Maria Rita”
+// É possível "adicionar" strings: concatenação;
+var x = "Maria" + " " + "Rita";  // "Maria Rita"
 ```
 
 ```js
 // Se um número for posto entre aspas, os seguintes são vistos como strings e concatenados:
-var x = ”5” + 2 + 3;  // 523
-var x = 2 + 3 + “5”;  // 55
+var x = "5" + 2 + 3;  // 523
+var x = 2 + 3 + "5";  // 55
 ```
 
 ### Operadores
@@ -278,7 +283,7 @@ var x = 2 + 3 + “5”;  // 55
  
 | Operador | Descrição | Exemplo |
 | ------------- |-------------|-------------|
-| + | Concatenação | ```string1 = "Bom"; string2 = " dia"; stringFinal = string1 + string2; // "Bom dia"``` |
+| + | Concatenação | ``` "Bom"; string2 = " dia"; stringFinal = string1 + string2; // "Bom dia"``` |
 
 ---
  
@@ -309,7 +314,7 @@ if (trueOrFalse) {
 
 ```js
 if (idade < 5) {
-    mensagem = “Ainda és um bebé”;
+    mensagem = "Ainda és um bebé";
 }
  ```
  
@@ -325,9 +330,9 @@ if (trueOrFalse) {
  
 ```js
 if (idade < 5) {
-    mensagem = “Ainda é um bebé";
+    mensagem = "Ainda é um bebé";
 } else {
-    mensagem = “Já não és nenhum bebé";
+    mensagem = "Já não és nenhum bebé";
 }
 ```
 
@@ -345,11 +350,11 @@ if (condição1) {
  
 ```js
 if (idade < 5) {
-    mensagem = “Ainda é um bebé";
+    mensagem = "Ainda é um bebé";
 } else if (idade < 18) {
-    mensagem = “És um adolescente";
+    mensagem = "És um adolescente";
 } else {
-    mensagem = “És um adulto!”;
+    mensagem = "És um adulto!";
 }
 ```
  
@@ -384,12 +389,282 @@ switch (diaSemana) {
 ```
 
 Caso nenhum valor dos case coincida com o valor da expressão utilizada no switch é corrido o bloco de código no ```default```.
-			  
-			  
-			  
-			  
-###
 
+---
+
+### Instruções iterativas
+ 
+Em Javascript definem-se as seguintes instruções iterativas:
+- for
+- while  
+			  
+### O ciclo for
+ 
+```js
+for (start; end; step) {
+    // código a ser executado 
+}
+```
+
+```js
+for (var i = 1; i < 5; i++) {
+    document.write("Número: " + i + "<br>");
+}
+```
+
+```js
+var dias = ["Seg", "Ter", "Qua", "Qui", "Sex"];
+for (var i = 0; i < 5; i++) {
+    alert(dias[i]);
+}
+```
+
+### O ciclo while
+ 
+```js
+while (condição) {
+    // código a ser executado
+}
+```
+
+```js
+var i = 0;
+while (i < 5) {
+    document.write("Número: " + i + "<br>");
+    i++;
+}
+```
+Não esquecer de incrementar/decrementar/alterar a variável, caso o contrário o loop nunca vai parar! (crasha o browser)
+
+---
+
+### Instruções break e continue
+
+### break
+
+A instrução break interrompe um ciclo passando o controlo à primeira instrução a seguir ao ciclo.
+
+```js
+for (i = 0; i < 5; i++) {
+    if (i == 3) {
+      break;
+    }
+  document.write("Número: " + i + "<br>");
+}
+document.write("Terminei!");
+```
+
+### continue
+
+A instrução continue interrompe o ciclo passando para iteração seguinte.
+
+```js
+for (i = 0; i < 5; i++) {
+  if (i == 3) {
+    continue; 
+  }
+   document.write("Número: " + i + "<br>");
+}
+document.write("Terminei!");
+```
+
+---
+### Funções
+
+Uma função é uma sequência de instruções com o objectivo de desempenhar uma tarefa específica.
+
+- Pode ser invocada em qualquer ponto do programa, e quando é invocada (chamada), ela executa essas instruções.
+- O Javascript tem algumas funções predefinidas, mas nós podemos criar as nossas.
+- As funções têm argumentos que são passados  na chamada da função e usados pela função como variáveis locais.
+- As funções podem devolver um valor ao programa de chamada mediante a utilização da instrução return.
+
+### Funções predefinidas do javascript (STRINGS)
+
+| Função | Descrição | Exemplo |
+| ------------- |-------------|-------------|
+| length() | Número de caracteres | ```"Ola".length  //3``` | 
+| concat() | Concatenação | ```"Ola".concat(" pessoas"); //"Ola pessoas"``` |
+| toUpperCase() | Maiúsculas | ```"Ola".toUpperCase(); //"OLA"``` |   
+| toLowerCase() | Minúsculas | ```"Ola".toLowerCase(); //"ola"``` |
+| charAt(i) | Caracter na posição i | ```"Ola".charAt(2); //"a"``` |
+| indexOf(char) | Posição do caracter char | ```"Ola".indexOf(‘O’); //0 (-1 se não existir) ``` |
+| substring(inicio, final) | Extrai string entre os indices início e final | ```"Palavra".substring(2,4); //la``` | 
+| split(separador) | Separa as strings pelo separador e converte-os num array | ```"Ola".concat(" pessoas"); //"Ola pessoas"```  |
+| | |```var letras = "Ola".split(""); // letras = ["O", "l", "a"];```|
+
+
+### Funções predefinidas do javascript (ARRAYS)
+
+| Função | Descrição | Exemplo |
+| ------------- |-------------|-------------|
+| length() | Número de elementos | ```[1,2,3,4].length; //4``` | 
+| concat() | Concatenação | ```[1,2,3,4].concat([5,6]); //[1,2,3,4,5,6]``` |
+| join(separador) | Une elementos por separador, formando uma string | ```var array = ["Ola", "amigos"]; var msg = array.join(""); //"Olaamigos"var msg = array.join(" "); //"Ola amigos" ``` |   
+| pop() | Retira o último elemento do array e devolve-o | ```var array = [1,2,3,4]; var ultimo = array.pop(); //ultimo = 3, array = [1,2,3]``` |
+| push() | Adiciona um elemento no fim do array | ```var array = [1,2,3,4]; array.push(5); //array = [1,2,3,4,5]``` | 
+| shift() | Retira o primeiro elemento do array e devolve-o | ```var array = [1,2,3,4]; var primeiro = array.shift(); //primeiro = 1, array = [2,3,4]``` |
+| unshift() | Adiciona um elemento ao início do array | ```var array = [1,2,3,4]; array.unshift(0); //array = [0,1,2,3,4] ``` |   
+| reverse() | Inverte a ordem dos elementos do array | ```var array = [1,2,3,4]; array.reverse(); //array = [4,3,2,1]``` |
+
+### Funções predefinidas do javascript (NÚMEROS)
+
+
+| Função | Descrição | Exemplo |
+| ------------- |-------------|-------------|
+| isNaN() | Verifica se um valor é um número ilegal (Not-a-Number) | ```isNaN(123); //false isNaN(0/0); //true``` | 
+| toFixed(n) | Converte o número numa string apenas com n casas decimais | ```var numero1 = 123.3456; var numero2 = toFixed(numero1); //numero2 = "123"``` |
+| parseFloat() | Faz o parse de uma string e devolve um float | ```var a = parseFloat("10.33"); //a = 10.33;``` |   
+| parseInt() | Faz o parse de uma string e devolve um integer | ```var a = parseInt("10.33"); //a = 10;``` |
+
+
+### Criação e invocação de funções
+
+```js
+function nome_função(parametro1, parametro2, parametro3, ...) {
+   // código a ser executado 
+}
+```
+
+```js
+function soma(a, b) {
+    return a + b;             
+}
+var x = soma(3,2);
+```
+
+
+### Criação de funções (RETURN)
+
+As funções param de executar assim que surgir a expressão return ("voltar", "devolver").
+Uma função pode ou não ter return.
+
+
+```js
+function soma(a, b) {
+    return a + b;             
+}
+var x = soma(3,2);  // x = 5
+document.write("O valor de x é: " + x);
+```
+
+
+### Eventos
+
+O Javascript é uma linguagem orientada a eventos.
+
+Os eventos podem ser produzidos pelo sistema (e.g. load de uma página web) ou resultar de acções directas do utilizador (e.g. premir um botão).
+
+Com Javascript podemos "reagir" a esses eventos: despoletar acções (executar código) quando esses eventos ocorrem.
+
+
+### Resposta a eventos de sistema (EXEMPLO)
+
+```js
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function entrar() {
+    alert("Bem-vindo à nossa página");  
+}
+</script>
+
+<body onload="entrar();">
+<h1>A nossa página</h1>
+</body>
+</html>
+```
+
+### Resposta a eventos de utilizadores (EXEMPLO)
+
+```js
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  function mostraMsg() {
+    alert("Uma mensagem para ti!");  
+  }
+</script>
+
+<body>
+<button onclick="mostraMsg();">
+  Clica para veres uma mensagem
+</button>
+</body>
+</html>
+```
+
+### Eventos Comuns
+
+
+| Evento | Descrição | Elementos para os quais está definido |
+| ------------- |-------------|-------------|
+| onclick | Clicar num elemento | Todos os elementos | 
+| onmouseover | O cursor "entra" num elemento | Todos os elementos |
+| onmouseout | O cursor "sai" de uma elemento | Todos os elementos |   
+| onchange | Desselecionar um elemento que se modificou entretanto | ```<input>, <select>, <textarea>``` |
+| onkeypress | Clicar num tecla | Elementos de formulario e ```<body>``` |
+| onload | Quando o browser carrega a página | ```<body>``` |   
+
+Existem imensos outros eventos. Consultar: http://www.w3schools.com/jsref/dom_obj_event.asp
+
+
+
+### Exercícios
+
+## Exercício 1 🏋️‍♀️
+
+Verifica o texto inserido pelo utilizador na caixa de texto mensagem e imprima-o quando o utlizador prime o botão. Testa as diferentes formas de output para imprimir:
+- ```alert()```
+- ```[elemento].write()```
+- ```[elemento].innerHTML```
+- ```console.log()```
+
+```js
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="titulo"><h1/>
+    <form>
+      <input type="text" id="mensagem"/>
+      <input type="button"onClick="mostrarMensagem()" value="Clica-me" />
+    </form>
+    <script>
+      function mostrarMensagem() {
+        // completar
+      }
+    </script>
+  </body>
+</html>
+```
+
+## Exercício 2 🏋️‍♀️
+
+Para que o código fique mais claro, experimenta guardar o texto numa variável e usa a mesma variável para todas as formas de output.
+
+## Exercício 3 🏋️‍♀️
+
+Vamos adicionar uma validação ao nosso exercício anterior:
+- Alerta o utilizador se a caixa de texto estiver vazia!
+- Senão altera o título com a mensagem introduzida
+- Dicas: usar ```if``` e ```else```
+
+## Exercício 4 🏋️‍♀️
+
+Vamos adicionar uma validação ao nosso exercício anterior:
+- Alerta o utilizador se a caixa de texto estiver vazia!
+- Senão altera o título com a mensagem introduzida
+- Dicas: usar ```if``` e ```else```
+
+## Exercício 5 🏋️‍♀️
+
+- Escreva uma função calculaArea() que receba como argumento o raio de uma circunferência e retorne o valor da sua área (área = π x r^2). 
+- Crie um ciclo for que imprima para a consola as áreas de círculos com raios de 2 a 9, sendo que no caso do raio ser 3, o ciclo deve saltar essa iteração.
+
+
+
+### 
 ```js
 			  
 ```
