@@ -32,7 +32,7 @@ Verifica o texto inserido pelo utilizador na caixa de texto mensagem e imprima-o
     </form>
     <script>
       function mostrarMensagem() {
-        // completar
+        // completar (Usa document.getElementById("button").value para aceder o valor do elemento)
       }
     </script>
   </body>
