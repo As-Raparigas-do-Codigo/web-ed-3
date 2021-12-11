@@ -193,7 +193,7 @@ Declaradas usando uma das palavras reservadas opcionais ```var``` e ```let```.
   var a=2;
   var b=2, c=2;
   x=5;
-  var c=a+b;
+  c=a+b;
 ```
 
 ⚠️ O JavaScript é case-sensitive!
@@ -532,7 +532,7 @@ Uma função é uma sequência de instruções com o objectivo de desempenhar um
 | Função | Descrição | Exemplo |
 | ------------- |-------------|-------------|
 | isNaN() | Verifica se um valor é um número ilegal (Not-a-Number) | ```isNaN(123); //false isNaN(0/0); //true``` | 
-| toFixed(n) | Converte o número numa string apenas com n casas decimais | ```var numero1 = 123.3456; var numero2 = toFixed(numero1); //numero2 = "123"``` |
+| toFixed(n) | Converte o número numa string apenas com n casas decimais | ```var numero1 = 123.682; var numero2 = numero1.toFixed(1); //numero2 = "123.7"``` |
 | parseFloat() | Faz o parse de uma string e devolve um float | ```var a = parseFloat("10.33"); //a = 10.33;``` |   
 | parseInt() | Faz o parse de uma string e devolve um integer | ```var a = parseInt("10.33"); //a = 10;``` |
 
