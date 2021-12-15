@@ -28,7 +28,7 @@ Verifica o texto inserido pelo utilizador na caixa de texto mensagem e imprima-o
     <h1 id="titulo"><h1/>
     <form>
       <input type="text" id="mensagem"/>
-      <input type="button"onClick="mostrarMensagem()" value="Clica-me" />
+      <input type="button" id="button" onClick="mostrarMensagem()" value="Clica-me" />
     </form>
     <script>
       function mostrarMensagem() {
