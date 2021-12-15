@@ -1,13 +1,13 @@
 # <img alt="JavaScript logo" src="https://imgr.search.brave.com/u2mh-cKPyTuFQ3InY4b5uo_I6_XvT-o_8f6pKvJ4oYo/fit/1052/1052/ce/1/aHR0cDovLzMuYnAu/YmxvZ3Nwb3QuY29t/Ly1QVHR5M0NmVEdu/QS9UcFpPRWpUUV9X/SS9BQUFBQUFBQUFl/by9LZUt0X0Q1WDJ4/by9zMTYwMC9qcy5q/cGc" width=30 /> JavaScript
 
 Chegámos ao último módulo de Web!
-Já consegues criar uma página de um website com HTML e dar-lhes estilos com CSS.
+Já consegues criar uma página de um website com HTML e dar-lhe estilos com CSS.
 Falta um pouco de funcionalidade e interatividade!
 
 ### Mas então o que é o JS?
 
  - Tecnologia web do lado do cliente (client-side scripting)
-   - É uma linguagem de programação usada para programar o comportamento das páginas web, para as tornar dinâmicas!
+   - É uma linguagem de programação usada para controlar o comportamento das páginas web, para as tornar dinâmicas!
  - Com JavaScript podemos:
    - Mudar o conteúdo de elementos HTML;
    - Mudar os atributos de elementos HTML;
@@ -15,18 +15,19 @@ Falta um pouco de funcionalidade e interatividade!
    - Esconder/Mostrar elementos HTML;
    - ...
 
-Apesar de com HTML e CSS escrevermos código, não lhes podemos chamar de linguagens de programação, são linguagens de markup e de estilos, respetivamente.
+⚠️ Apesar de com HTML e CSS escrevermos código, não lhes podemos chamar de linguagens de programação.
+São linguagens de markup e de estilos, respetivamente.
 Já o JavaScript é uma linguagem de programação.
 
 ---
 
 <details>
-<summary>Tag <script> </summary>
+<summary>Tag <script></summary>
 
 ## Tag \<script\>
 
 O código JavaScript pode ser incluído no <head> e/ou <body> dos documentos HTML.
-Tem de ser inserido entre as tags <script> e </script>, como na imagem seguinte:
+Tem de ser inserido entre as tags ```<script>``` e ```</script>```, como na imagem seguinte:
 
 Exemplo de JS interno na ```<head>```
 ```html
@@ -75,8 +76,14 @@ Ficheiro HTML index.html:
 ```html
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Exemplo</title>
+    <script src="index.js"></script>
+  </head>
   <body>
-    <script src="ficheiro.js"></script>
+    <h1>A minha página</h1>
+    <p id="paragrafo1">Um texto qualquer.</p>
+    <button type="button" onclick="mudaTexto()">Mudar o texto! </button>
   </body>
 </html>
 ```
@@ -86,8 +93,8 @@ function mudaTexto() {
    document.getElementById("paragrafo1").innerHTML = "Escrevi outro texto.";
 }
 ```
-- 💡 O ficheiro externo deve gravar-se com extensão .js.
-- 💡 No ficheiro javascript externo não é necessário colocar as tags <script> e </script> a envolver o código.
+- 💡 O ficheiro externo deve gravar-se com extensão ```.js```.
+- 💡 No ficheiro javascript externo não é necessário colocar as tags ```<script>``` e ```</script>``` a envolver o código.
 
 </details>	
 
@@ -95,9 +102,10 @@ function mudaTexto() {
 
 <details>
 <summary>Output</summary>
+
 ## Output
 
-Há quatro formas de o browser nos mostrar o output (resultado) de uma operação.
+Formas mais simples de obtermos informação do browser:
 
 - ```alert("Hello world")```
 - ```[elemento].write("Hello world")```
@@ -137,7 +145,7 @@ Escreve texto no fundo do elemento escolhido. No exemplo abaixo o elemento foi o
 ```
 
 - [elemento].innerHTML
-Escreve dentro de um elemento.
+Escreve o conteúdo de um elemento.
 ```html
 <!DOCTYPE html>
 <html>
@@ -151,7 +159,7 @@ Escreve dentro de um elemento.
 ```
 
 - console.log()
-Imprimir algo na consola do browser (temos de inspecionar a página, com a tecla F12 ou botão direito do rato, para ver a consola).
+Imprimir algo na consola do browser (tens de inspecionar a página, com a tecla F12 ou botão direito do rato, para ver a consola).
 ```html
 <!DOCTYPE html>
 <html>
@@ -183,6 +191,7 @@ Imprimir algo na consola do browser (temos de inspecionar a página, com a tecla
 
 <details>
 <summary>Variáveis</summary>
+
 ## Variáveis
 
 Declaradas usando uma das palavras reservadas opcionais ```var``` e ```let```.
@@ -207,7 +216,7 @@ var a=2;                                       //Número Inteiro (integer)
 var a=2.67;                                    //Número Decimal (float)
 var a=123e5;                                   //Notação Científica
 var nome="Zé Miguel";                          //String ("")
-var nome=’João António’;                       //String (‘’)
+var nome='João António';                       //String (‘’)
 var equipas=["Benfica", "Sporting", "Porto"];  //Array
 var pessoa={nome:"Miguel", apelido:"Sousa"};   //Objecto
 var a=true;                                    //Boolean
@@ -225,7 +234,7 @@ var x = 5 + 2 + 3;  // 10
 ```
 
 ```js
-// É possível "adicionar" strings: concatenação;
+// É possível "adicionar" strings, esta operação chama-se concatenação
 var x = "Maria" + " " + "Rita";  // "Maria Rita"
 ```
 
@@ -240,6 +249,7 @@ var x = 2 + 3 + "5";  // 55
 
 <details>
 <summary>Operadores</summary>
+
 ### Operadores
 - Operadores aritméticos
 - Operadores de incremento e decremento
