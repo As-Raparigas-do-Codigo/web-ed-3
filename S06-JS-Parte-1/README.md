@@ -344,7 +344,7 @@ if (idade < 5) {
 if (trueOrFalse) {
     // código a ser executado caso a condição seja verdadeira
 } else {
-	// código a ser executado caso a condição seja falsa
+    // código a ser executado caso a condição seja falsa
 }
 ```
  
@@ -362,9 +362,9 @@ if (idade < 5) {
 if (condição1) {
     // código a ser executado caso a condição1 seja verdadeira
 } else if (condição2){
-	// código a ser executado caso a condição1 seja falsa e a condição2 seja verdadeira
+    // código a ser executado caso a condição1 seja falsa e a condição2 seja verdadeira
 } else {
-	// código a ser executado caso ambas as condições sejam falsas
+    // código a ser executado caso ambas as condições sejam falsas
 }
 ```
  
@@ -408,7 +408,7 @@ switch (diaSemana) {
 }
 ```
 
-Caso nenhum valor dos case coincida com o valor da expressão utilizada no switch é corrido o bloco de código no ```default```.
+Caso nenhum valor dos ```case``` coincida com o valor da expressão utilizada no switch é corrido o bloco de código no ```default```.
 
 </details>
 
@@ -467,7 +467,7 @@ Não esquecer de incrementar/decrementar/alterar a variável, caso o contrário 
 
 ### break
 
-A instrução break interrompe um ciclo passando o controlo à primeira instrução a seguir ao ciclo.
+A instrução ```break``` interrompe um ciclo passando o controlo à primeira instrução a seguir ao ciclo.
 
 ```js
 for (i = 0; i < 5; i++) {
@@ -481,7 +481,7 @@ document.write("Terminei!");
 
 ### continue
 
-A instrução continue interrompe o ciclo passando para iteração seguinte.
+A instrução ```continue``` interrompe o ciclo passando para iteração seguinte.
 
 ```js
 for (i = 0; i < 5; i++) {
@@ -504,8 +504,8 @@ document.write("Terminei!");
 Uma função é uma sequência de instruções com o objectivo de desempenhar uma tarefa específica.
 
 - Pode ser invocada em qualquer ponto do programa, e quando é invocada (chamada), ela executa essas instruções.
-- O Javascript tem algumas funções predefinidas, mas nós podemos criar as nossas.
-- As funções têm argumentos que são passados  na chamada da função e usados pela função como variáveis locais.
+- O Javascript tem algumas funções predefinidas (como o alert() e outras), mas nós podemos criar as nossas.
+- As funções podem ter argumentos que são passados  na chamada da função e usados pela função como variáveis locais.
 - As funções podem devolver um valor ao programa de chamada mediante a utilização da instrução return.
 
 ### Funções predefinidas do javascript (STRINGS)
@@ -587,9 +587,9 @@ document.write("O valor de x é: " + x);
 
 O Javascript é uma linguagem orientada a eventos.
 
-Os eventos podem ser produzidos pelo sistema (e.g. load de uma página web) ou resultar de acções directas do utilizador (e.g. premir um botão).
+Os eventos podem ser produzidos pelo sistema (e.g. load de uma página web) ou resultar de ações diretas do utilizador (e.g. premir um botão).
 
-Com Javascript podemos "reagir" a esses eventos: despoletar acções (executar código) quando esses eventos ocorrem.
+Com Javascript podemos "reagir" a esses eventos: despoletar ações (executar código) quando esses eventos ocorrem.
 
 
 ### Resposta a eventos de sistema (EXEMPLO)
